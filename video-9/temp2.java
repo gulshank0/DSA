@@ -9,11 +9,12 @@ public class temp2 {
 
     if (salary >= 8000) {
       System.out.println(salary += 2000);
-      // It is similar to salary = salary +20000
+      // It is similar to salary = salary + 2000
     } else {
-      System.out.println(
+      System.out.println(salary += 5000);
+      // It is also similar to salary = salary + 5000
+    }
 
-          salary += 5000); // It is also similar to salary=salary+5000 only }
-
+    in.close(); // Closing the scanner to avoid resource leaks
   }
 }

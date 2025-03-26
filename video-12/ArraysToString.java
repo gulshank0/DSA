@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.lang.Object;
+import java.util.Arrays;
 
 public class ArraysToString {
   public static void main(String[] args) {
@@ -13,10 +13,8 @@ public class ArraysToString {
       }
     }
 
-    for (int row = 0; row < arr.length; row++) {
-      System.out.println(Arrays.toString(arr[row]));
-
+    for (int[] a : arr) {
+      System.out.println(Arrays.toString(a));
     }
-
   }
 }
