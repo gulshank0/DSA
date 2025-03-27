@@ -1,7 +1,7 @@
 
 public class MaxNum {
   public static void main(String[] args) {
-    int[] arr = { 12, 98,23, 22, 34, 45 };
+    int[] arr = { 12, 98, 23, 22, 888, 34, 45 };
 
     System.out.println(max(arr));
 
