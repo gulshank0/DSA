@@ -1,16 +1,6 @@
+public class linear {
+  public static void main(String[] arg) {
+    System.out.println("Hello World");
 
-jghjh 
-@serialData   jghjh
-kjhhf ih 
-kh ljkhfhoipj 
-
-
-
-
-piuwfyhpuunba
-  oijaoiu 
-
- gerfoih   dfsj  huhqw0-oiu  iuhj wqer  iuhj
-
-
-                  ohewfqhioprwejhnopiv  iujjjjjh
+  }
+}
