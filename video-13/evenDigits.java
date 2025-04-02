@@ -1,6 +1,6 @@
 public class evenDigits {
   public static void main(String[] args) {
-    int[] nums = { 12, 3, 4, 1234, 8, 7 };
+    int[] nums = { 12, 3, 4, 1234, 8, 7, 88 };
     System.out.println(findNumber(nums));
   }
 
@@ -22,9 +22,9 @@ public class evenDigits {
 
   static int digits(int num) {
     int count = 0;
-  
+
     while (num > 0) {
-    count++;
+      count++;
       num = num / 10;
     }
 
