@@ -25,3 +25,6 @@ public class ques2 {
     return end;
   }
 }
+
+// floor is the number <= the target
+//

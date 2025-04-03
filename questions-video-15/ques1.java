@@ -24,3 +24,4 @@ public class ques1 {
     return start;
   }
 }
+// Ceiling is the the smallest element in array >= to target
