@@ -5,11 +5,11 @@ public class ques1 {
     System.out.println("Here 1st question of video is going to be solved");
     int[][] nums = {
         { 3, 4, 5 },
-        { 4, 5, 6 },
+        { 4, 5, 9 },
         { 6, 7, 8 }
     };
 
-    System.out.println(Arrays.toString(searchingTwoD(nums, 8)));
+    System.out.println(Arrays.toString(searchingTwoD(nums, 6)));
   }
 
   static int[] searchingTwoD(int[][] arr, int target) {
