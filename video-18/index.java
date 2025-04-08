@@ -1,16 +1,21 @@
-import javax.crypto.AEADBadTagException;
+import java.util.Arrays;
 
 public class index {
   public static void main(String[] args) {
     System.out.println("Here we gone perform Selection sort");
     int[] nums = { 1, 43, 2, 23, 44, 55, 43, 88 };
+    selectionSort(nums);
+    System.out.println(Arrays.toString(nums));
   }
 
   static void selectionSort(int[] arr) {
-  // find the maximum item in the remaing array and swap with correct index
-    int last=arr.length -i-1;
-    int maxIndex=getMaxindex(int[] arr, int i,int last);
+    for (int i = 0; i < arr.length; i++) {
+      // find the maximum item in the remaing array and swap with correct index
+      int last = arr.length - i - 1;
+      int maxIndex = getMaxindex(arr, 0, last);
 
+      swap(arr, maxIndex, last);
+    }
   }
 
   private static int getMaxindex(int[] arr, int start, int end) {
