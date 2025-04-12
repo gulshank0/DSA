@@ -13,5 +13,3 @@ public class Another {
       case "Oranges" -> System.out.println("It is rounded fruits");
       default -> System.out.println("Please Enter the valid fruits");
     }
-  }
-}
