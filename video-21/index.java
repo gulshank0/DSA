@@ -6,5 +6,10 @@ public class index {
     int a = 30;
     String name = "Kunal Kushawaha";
     System.out.println(name + ": " + a);
+
+    String b = "kunal";
+    System.out.println(b);
+    b="Kushawaha";
+    System.out.println(b);
   }
 }
