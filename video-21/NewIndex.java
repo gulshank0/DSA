@@ -6,9 +6,11 @@ public class NewIndex {
     String b = "kunal";
     System.out.println(a == b);
 
+    String x = new String("kunal");
+    String y = new String("kunal");
+    System.out.println(x == y);
+    System.out.println(a.equals(b));
+    System.out.println(a.charAt(3));
 
-    String x=new String("kunal");
-    String y=new String("kunal");
-    System.out.println(x==y);
   }
 }
