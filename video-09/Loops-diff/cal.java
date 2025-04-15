@@ -14,7 +14,7 @@ public class cal {
         // inputs two numbers
         //
         //
-        System.out.println("Enter the two numbers: ")
+        System.out.println("Enter the two numbers: ");
         
         int num1 = in.nextInt();
         int num2 = in.nextInt();

@@ -10,7 +10,7 @@ public class NewIndex {
     String y = new String("kunal");
     System.out.println(x == y);
     System.out.println(a.equals(b));
-    System.out.println(a.charAt(3));
+    System.out.println(a.charAt(0));
 
   }
 }
