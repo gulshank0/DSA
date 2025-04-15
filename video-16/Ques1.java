@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ques1 {
+public class Ques1 {
   public static void main(String[] args) {
     System.out.println("Here 1st question of video is going to be solved");
     int[][] nums = {
