@@ -2,8 +2,9 @@ public class Index {
   public static void main(String[] args) {
     System.out.println("Pattern Printing perform here");
 
-    pattern1(4);
+    pattern1(6);
     pattern2(5);
+    pattern3(6);
   }
 
   static void pattern1(int n) {
@@ -19,10 +20,20 @@ public class Index {
 
   static void pattern2(int n) {
     for (int rows = 1; rows <= n; rows++) {
-      for (int col = 1; col <= rows; col++) {
+      for (int col = 1; col <= n; col++) {
         System.out.print("* ");
       }
       System.out.println("*");
+    }
+  }
+
+  static void pattern3(int n) {
+    for (int row = 1; row <= n; row++) {
+      for (int cols = row; cols <= n; cols++) {
+        System.out.print("* ");
+      }
+      System.out.println();
+
     }
   }
 }
