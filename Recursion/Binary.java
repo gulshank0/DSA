@@ -2,7 +2,7 @@ public class Binary {
   public static void main(String[] args) {
     System.out.println("Binary Serach using Recurrion");
     int[] nums = { 2, 3, 5, 6, 7, 8, 9, 44, 45, 66, 77, 88 };
-    int ans = search(nums, 77, 0, nums.length - 1);
+    int ans = search(nums, 97, 0, nums.length - 1);
     System.out.println(ans);
   }
 
