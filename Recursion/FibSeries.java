@@ -8,7 +8,7 @@ public class FibSeries {
 
     for (int i = 0; i < n; i++) {
       int nextValue = firstValue + secondValue;
-      System.out.println(nextValue);
+      System.out.print(nextValue + " ");
       firstValue = secondValue;
       secondValue = nextValue;
     }

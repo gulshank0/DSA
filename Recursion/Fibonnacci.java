@@ -1,7 +1,7 @@
 public class Fibonnacci {
   public static void main(String[] args) {
     System.out.println("Fibonnacci is going to perform");
-    System.out.println(fibb(8));
+    System.out.println(fibb(50));
   }
 
   static int fibb(int n) {
